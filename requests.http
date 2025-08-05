@@ -1,0 +1,19 @@
+### Get request to example server
+GET http://localhost:8080
+
+### Get request for sample data
+
+GET http://localhost:8080/api/v1/software-engineer
+
+###
+POST http://localhost:8080/api/v1/software-engineer
+Content-Type: application/json
+
+{
+  "name" : "Priyanka",
+  "techStack" : "Java, Spring, Maven, SpringBoot"
+}
+
+### Get request for sample data for ID
+
+GET http://localhost:8080/api/v1/software-engineer/3
